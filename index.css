@@ -73,6 +73,7 @@ span {
 h1 {
     color: var(--cor1);
     font-family: var(--fonte2);
+    text-align: start;
     margin: 15px;
     font-size: 2em;
 }
