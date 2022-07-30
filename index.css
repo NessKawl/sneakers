@@ -10,10 +10,15 @@
     src: url('fonts/static/Montserrat-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Monserrat-EBI';
+    src: url('fonts/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+}
 
 :root {
     --fonte1: 'Monserrat'; 
     --fonte2: 'Monserrat-B';
+    --fonte3: 'Monserrat-EBI'; 
 
     --cor1: #534242; 
 }
@@ -31,10 +36,20 @@ header {
 
 header > img {
     width: 8%;
+    margin-left: 8px;
 }
 
-#logo {
-    width: 8%;
+#yeezy{
+    margin-bottom: 29px;
+}
+
+#logo-escrita {
+    font-family: var(--fonte3);
+    font-size: 3em;
+    position: absolute;
+    left: 50%;
+    top: 12.5%;
+    transform: translate(-50%, -115%);
 }
 
 #box {
