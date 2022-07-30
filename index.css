@@ -32,25 +32,21 @@
 header {
     background-color: rgba(255, 68, 0, 0.785);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.581);
+    font-family: var(--fonte3);
+    font-size: 2vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 header > img {
-    width: 8%;
+    max-width: 8%;
     margin-left: 8px;
 }
 
-#yeezy{
-    margin-bottom: 29px;
-}
-
-#logo-escrita {
-    font-family: var(--fonte3);
-    font-size: 3em;
-    position: absolute;
-    left: 50vw;
-    top: 12.5vh;
-
-    transform: translate(-7.5vw, -10.5vh);
+header > h1 {
+    position: relative;
+    left: 24.5vw;
 }
 
 #box {
@@ -92,6 +88,7 @@ main {
     margin: auto;
     max-width: 750px;
     line-height: 1.5em;
+    font-size: 3vh;
 }
 
 section > p {
