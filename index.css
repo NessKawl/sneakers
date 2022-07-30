@@ -32,7 +32,6 @@
 header {
     background-color: rgba(255, 68, 0, 0.785);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.581);
-    font-family: var(--fonte3);
     font-size: 2vmax;
     display: flex;
     flex-direction: row;
@@ -44,9 +43,11 @@ header > img {
     margin-left: 8px;
 }
 
-header > h1 {
+#titulo {
+    font-family: var(--fonte3);
     position: relative;
     left: 24.5vw;
+    text-shadow: 1px 1px 3px rgb(20, 103, 144);
 }
 
 #box {
