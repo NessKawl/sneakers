@@ -36,7 +36,7 @@
 }
 
 header {
-    background-color: rgba(255, 68, 0, 0.785);
+    background-image: linear-gradient(to bottom, rgba(9, 77, 107, 0.907),  rgba(25, 124, 167, 0.956), rgba(39, 152, 201, 0.908));
     font-size: 2vmax;
     display: flex;
     flex-direction: row;
@@ -52,11 +52,11 @@ header > img {
     font-family: var(--fonte3);
     position: relative;
     left: 19vw;
-    text-shadow: 1px 1px 3px rgb(20, 103, 144);
+    text-shadow: 1px 1px 3px rgba(141, 30, 175, 0.89);
 }
 
 nav {
-    background-color: var(--cor1);
+    background-color:  rgba(39, 152, 201, 0.908);
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.581);
     padding: 7px;
 }
@@ -91,6 +91,17 @@ main {
 section > p {
     font-family: var(--fonte1);
     font-size: 0.9em;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > img {
+    width: 60%;
+    margin: 10px;
 }
 
 strong, i {
