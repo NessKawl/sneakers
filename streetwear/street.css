@@ -2,20 +2,26 @@
 
 @font-face {
     font-family: 'Monserrat';
-    src: url('../fonts/static/Montserrat-Medium.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Monserrat-B';
-    src: url('../fonts/static/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Monserrat-EBI';
-    src: url('../fonts/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/questrial/Questrial-Regular.ttf') format('truetype');
 }
 
 :root {
+    --fonte-padrao: 'Questrial';
     --fonte1: 'Monserrat'; 
     --fonte2: 'Monserrat-B';
     --fonte3: 'Monserrat-EBI'; 
@@ -24,7 +30,7 @@
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     margin: 0px;
     padding: 0px;
 }
@@ -56,9 +62,10 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: black;
     text-decoration: none;
-    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 a:hover {

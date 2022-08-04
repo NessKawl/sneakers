@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'Monserrat';
-    src: url('fonts/montserrat/static/Montserrat-Medium.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Monserrat-B';
-    src: url('fonts/montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Monserrat-EBI';
-    src: url('fonts/montserrat/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+    src: url('../fonts/montserrat/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -51,33 +51,10 @@ header > img {
 #titulo {
     font-family: var(--fonte3);
     position: relative;
-    left: 24.5vw;
+    left: 35vw;
     text-shadow: 1px 1px 3px rgb(20, 103, 144);
 }
 
-
-/*
-#box {
-    background-color: whitesmoke;
-    width: 170px;
-    height: 170px;
-    margin-top: 30px;
-    margin-left: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.378);
-    border-radius: 3px;
-}
-
-#box > img {
-    position: absolute;
-    width: 12%;
-}
-
-span {
-    position: relative;
-    top: 102%;
-    text-align: center;
-}
-*/
 nav {
     background-color: var(--cor1);
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.581);
@@ -99,40 +76,5 @@ h1 {
     font-size: 2em;
 }
 
-h3 {
-    font-family: var(--fonte2);
-    color: var(--cor1);
-}
 
-main {
-    padding: 10px;
-    margin: auto;
-    max-width: 750px;
-    line-height: 1.5em;
-    font-size: 3vh;
-}
 
-section > p {
-    font-family: var(--fonte1);
-    font-size: 0.9em;
-}
-
-strong, i {
-    color: var(--cor1);
-}
-
-footer {
-    text-align: center;
-    color: white;
-    background-color: black;
-    padding: 5px;
-}
-
-p > a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
